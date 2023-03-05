@@ -1,4 +1,51 @@
-.friend {
-    display: inline-block;
-    background: blue;
+
+/*body div {*/
+/*    color: blue !important;*/
+/*}*/
+
+/*div {*/
+/*    color: red;*/
+/*}*/
+
+/*body > div {*/
+/*    color: pink;*/
+/*}*/
+
+/*body > div > div {*/
+/*    color: black;*/
+/*}*/
+
+/*body div :first-child {*/
+/*    color: red;*/
+/*}*/
+
+/*body div:nth-child(2) {*/
+/*    color: blue;*/
+/*}*/
+
+/*ul.asd > li.qwe {*/
+/*    !*color: red;*!*/
+/*}*/
+
+/*#asdfghjkl {*/
+/*    color: blue;*/
+/*}*/
+
+.menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 600px;
 }
+
+.menu a{
+    border-bottom: 1px solid blueviolet;
+    text-decoration: none;
+    height: 40px;
+    line-height: 40px;
+}
+
+.menu li{
+    display: inline;
+}
+
